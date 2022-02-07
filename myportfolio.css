@@ -1,0 +1,272 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Hind Guntur', sans-serif;
+}
+body {
+    background-color: rgb(24, 24, 24);
+}
+::selection {
+    background: #d2738a;
+  }
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+}
+.navcont {
+    width: 600px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.spacer1 {
+    display: inline-block;
+    width: 100px;
+}
+.header a {
+    color: #c1b492;
+    transition: 0.5s;
+}
+.header a:hover {
+    color: #d2738a;
+}
+.container1 {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    position: relative;
+    bottom: 180px;
+    font-size: 100px;
+    line-height: 90px;
+}
+#frontend {
+    color: #c1b492;
+    transition: 0.5s;
+}
+#frontend:hover {
+    color: #d2738a;
+}
+.container1-5 {
+    width: 100%;
+    height: 300px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+}
+.container1-6 {
+    width: 50%;
+    height: 100%;
+}
+h2 {
+    font-size: 60px;
+    line-height: 1;
+}
+.container2 {
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+}
+.container2-1 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #c1b492;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.project {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container2-1:hover {
+    background-color: #c1b492;
+    color: rgb(24, 24, 24);
+}
+.container2-1:hover > .project {
+    color: rgb(24, 24, 24);
+}
+.spacer2 {
+    width: 200px;
+}
+.container3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container3-1 {
+    width: 50%;
+}
+.container3-1 p {
+    font-size: 24px;
+}
+.container3-1 li {
+    font-size: 24px;
+    margin-left: 20px;
+}
+#email1 {
+    color: #c1b492;
+    transition: 0.5s;
+}
+#email1:hover {
+    color: #d2738a;
+}
+.container4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 420px;
+}
+.container4-1 {
+    width: 50%;
+}
+label, input, textarea {
+    display: block;
+}
+input, textarea {
+    background-color: rgb(24, 24, 24);
+    border: 3px solid #c1b492;
+    color: white;
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 24px;
+    padding-top: 8px;
+}
+label {
+    font-size: 24px;
+    margin-top: 10px;
+}
+#name, #email2 {
+    height: 40px;
+    width: 637px;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+#submitbutton {
+    margin-top: 22px;
+    width: 140px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: #c1b492;
+    color: white;
+}
+#submitbutton:hover {
+    background-color: #c1b492;
+    color:rgb(24, 24, 24);
+}
+.container5 {
+    height: 340px;
+}
+@media (max-width: 1400px) {
+    .container4-1 {
+        width: auto;
+    }
+}
+@media (max-width: 1050px) {
+    .header {
+        justify-content: center;
+    }
+    .navcont {
+        margin-right: 0px;
+        width: 60vw;
+    }
+}
+@media (max-width: 945px) {
+    h1 {
+        padding-left: 15vw;
+    }
+    .container1-6 {
+        width: 75%;
+        height: auto;
+    }
+    .spacer2 {
+        display: none;
+    }
+    .container2-1 {
+        margin-right: 8vw;
+        margin-left: 8vw;
+    }
+}
+@media (max-width: 700px) {
+    .navcont {
+        width: 75vw;
+    }
+    h1 {
+        padding-left: 10vw;
+    }
+    .container1-5 {
+        height: 150px;
+    }
+    .container1-6 {
+        width: 85vw;
+    }
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .container2-1 {
+        margin-top: 100px;
+    }
+    .container3-1 {
+        margin-top: 200px;
+        width: 85vw;
+    }
+    #name, #email2 {
+        height: 40px;
+        width: 85vw;
+    }
+    textarea {
+        width: 85vw;
+    }
+    .container5 {
+        height: 180px;
+    }
+}
+@media (max-width: 580px) {
+    .navcont a {
+        font-size: 6vw;
+    }
+    h1 {
+        font-size: 18vw;
+        line-height: 1;
+        padding-left: 5vw;
+    }
+    .container3-1 {
+        width: 85%;
+    }
+    .container4 {
+        margin-top: 170px;
+    }
+}
+@media (max-width: 400px) {
+    .container1 {
+        height: 100vh;
+    }
+    h1 {
+        bottom: 100px;
+    }
+    .container4-1 {
+        width: 85vw;
+        padding-right: 2vw;
+    }
+}
+@media (max-width: 365px) {
+    .container1-5 {
+        height: 200px;
+    }
+}

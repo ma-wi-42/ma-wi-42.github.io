@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(226, 247, 255);
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    position: relative;
+    bottom: 60px;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: rgb(61, 61, 61);
+}
+hr {
+    background-color: rgb(130, 178, 223);
+    width: 100px;
+    height: 5px;
+    position: relative;
+    bottom: 70px;
+    border: none;
+}
+.card {
+    width: 600px;
+    height: 400px;
+    margin-top: -20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.comma {
+    background-color: rgb(130, 178, 223);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 330px;
+    right: 52%;
+    z-index: 2;
+}
+.comma p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    letter-spacing: -12px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -130px;
+    left: 16%;
+    z-index: 3;
+}
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    position: relative;
+    top: 25px;
+}
+h2 {
+    position: relative;
+    top: 10px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: rgb(61, 61, 61);
+}
+#persontitle {
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+    color: rgb(130, 178, 223);
+}
+.textdiv {
+    width: 90%;
+    text-align: center;
+}
+#persontext {
+    position: relative;
+    bottom: 40px;
+    font-weight: bold;
+    color: rgb(163, 163, 163);
+}
+button {
+    border: none;
+    border-color: rgb(130, 178, 223);
+    color: rgb(130, 178, 223);
+    background-color: rgb(226, 247, 255);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+#btnleft, #btnright {
+    position: relative;
+    bottom: 40px;
+    font-size: 16px;
+}
+#btnleft {
+    position: relative;
+    right: 12px;
+}
+#btnright {
+    position: relative;
+    left: 12px;
+}
+#btnsurprise {
+    position: relative;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 1040px) {
+    .comma {
+        right: 54%;
+    }
+}
+@media (max-width: 660px) {
+    .comma {
+        right: 58%;
+    }
+}
+@media (max-width: 600px) {
+    .comma {
+        top: 320px;
+    }
+}
+@media (max-width: 550px) {
+    .card {
+        min-height: 400px;
+        height: auto;
+    }
+    .textdiv {
+        width: 80vw;
+    }
+}

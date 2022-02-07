@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">
+            <div class="box2-5" id="resultArea">
+            </div>
+        </div>
+        <div class="box3 box3-1">
+            <button type="button" onclick="slicePie()">DEL</button>
+            <button type="button" onclick="noPie()">AC</button>
+        </div>
+        <div class="box3">
+            <button type="button" onclick="somePie(1)">1</button>
+            <button type="button" onclick="somePie(2)">2</button>
+            <button type="button" onclick="somePie(3)">3</button>
+            <button type="button" onclick="somePie(' / ')">÷</button>
+        </div>
+        <div class="box3">
+            <button type="button" onclick="somePie(4)">4</button>
+            <button type="button" onclick="somePie(5)">5</button>
+            <button type="button" onclick="somePie(6)">6</button>
+            <button type="button" onclick="somePie(' * ')">x</button>
+        </div>
+        <div class="box3">
+            <button type="button" onclick="somePie(7)">7</button>
+            <button type="button" onclick="somePie(8)">8</button>
+            <button type="button" onclick="somePie(9)">9</button>
+            <button type="button" onclick="somePie(' - ')">-</button>
+        </div>
+        <div class="box3 box3-5">
+            <button type="button" id="bottomleft" onclick="somePie(0)">0</button>
+            <button type="button" onclick="somePie('.')">.</button>
+            <button type="button" onclick="wholePie()">=</button>
+            <button type="button" id="bottomright" onclick="somePie(' + ')">+</button>
+        </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
