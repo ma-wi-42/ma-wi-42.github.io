@@ -144,13 +144,16 @@ input, textarea {
     font-family: 'Hind Guntur', sans-serif;
     font-size: 24px;
     padding-top: 8px;
+    box-sizing: border-box;
 }
+textarea {
+    width: 637px;
 label {
     font-size: 24px;
     margin-top: 10px;
 }
 #name, #email2 {
-    height: 40px;
+    height: 50px;
     width: 637px;
 }
 input:focus, textarea:focus {
@@ -163,6 +166,7 @@ input:focus, textarea:focus {
     transition: 0.5s;
     border-color: #c1b492;
     color: white;
+    box-sizing: border-box;
 }
 #submitbutton:hover {
     background-color: #c1b492;
@@ -227,7 +231,6 @@ input:focus, textarea:focus {
         width: 85vw;
     }
     #name, #email2 {
-        height: 40px;
         width: 85vw;
     }
     textarea {
@@ -262,7 +265,6 @@ input:focus, textarea:focus {
     }
     .container4-1 {
         width: 85vw;
-        padding-right: 2vw;
     }
 }
 @media (max-width: 365px) {
